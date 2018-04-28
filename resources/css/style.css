@@ -1,0 +1,197 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid black;
+  background-color: white;
+  z-index: 2;
+}
+
+.MYTlogo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+}
+
+.header-text {
+  color: MediumAquamarine;
+  padding-left: 15px;
+}
+
+.nav li {
+  display: inline-flex;
+  padding: 20px;
+}
+
+.nav a {
+  color: black;
+}
+.nav {
+  display: flex-inline;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.documentBody {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 150px;
+  width: 100%;
+  background color: white;
+  z-index: 1;
+
+}
+
+.colL {
+  display: flex;
+  width: 630px;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.colM {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.colS {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.MainStory {
+    display: flex;
+    background-image: url("../images/img-story-main.png");
+    height: 240px;
+    width: 629px;
+}
+
+
+.NewsBites {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.NewsBiteItem {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 10px;
+}
+
+.MainStory_Text{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.main-story {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+.Container {
+  width: 300px;
+  display: flex;
+}
+
+.orcaPlacement {
+  order: 1;
+}
+
+.burgePlacement {
+  order: 2;
+}
+
+.earthPlacement {
+  order: 3;
+}
+
+.cameraPlacement {
+  order: 4;
+}
+
+.story {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+.Image300PX {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.earthIMG {
+    background-image: url("../images/img-story-2.png");
+}
+
+.cameraIMG {
+    background-image: url("../images/img-story-3.png");
+}
+
+.catIMG {
+    background-image: url("../images/cat-img-story-1.png");
+}
+
+
+.ImageText {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  flex-direction: column;
+  width: 100%;
+  height:325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
